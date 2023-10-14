@@ -9,7 +9,7 @@ int main(void)
 	a="I'm a boy\n";
 	cout<<a.contents();
 	cout<<a.compare("I'm a a")<<endl;
-	Str b("I'm a b");
+	Str b("I'm a d");
 	cout<<b.contents()<<endl;
 	cout<<b.compare(a)<<endl;
 	return 0;
